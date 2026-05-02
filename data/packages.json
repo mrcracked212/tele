@@ -1,0 +1,39 @@
+{
+  "trial": {
+    "name": "Trial Basic",
+    "can_share_group": true,
+    "can_share_channel": true,
+    "can_share_user": false,
+    "can_share_all": false,
+    "duration": "1h",
+    "delay_seconds": 60,
+    "daily_limit": 3,
+    "promo_limit": 3,
+    "required_targets": 3,
+    "min_group_members": 30,
+    "min_channel_subscribers": 50,
+    "only_once": true,
+    "enabled": true,
+    "default_duration": "1h"
+  },
+  "pro": {
+    "name": "Pro",
+    "can_share_group": true,
+    "can_share_channel": true,
+    "can_share_user": false,
+    "can_share_all": false,
+    "delay_seconds": 30,
+    "daily_limit": 20,
+    "enabled": true
+  },
+  "vip": {
+    "name": "VIP",
+    "can_share_group": true,
+    "can_share_channel": true,
+    "can_share_user": true,
+    "can_share_all": true,
+    "delay_seconds": 15,
+    "daily_limit": 50,
+    "enabled": true
+  }
+}

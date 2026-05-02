@@ -1,0 +1,30 @@
+{
+  "trial_settings": {
+    "duration": "1h",
+    "promo_limit": 3,
+    "required_targets": 3,
+    "min_group_members": 30,
+    "min_channel_subscribers": 50
+  },
+  "trial": {
+    "required_target_count": 3,
+    "min_group_members": 30,
+    "min_channel_subscribers": 50,
+    "default_duration": "1h",
+    "promo_limit": 3
+  },
+  "moderation": {
+    "max_warning": 3,
+    "max_promo_length": 3500,
+    "max_url_buttons": 1,
+    "banned_words": [
+      "judi",
+      "slot",
+      "bokep",
+      "scam"
+    ]
+  },
+  "sessions": {
+    "ttl_seconds": 900
+  }
+}
